@@ -9,7 +9,7 @@ spec:
   - host: arch.homework
     http:
       paths:
-        - path: /otusapp($|/)(.*)
+        - path: /otusapp/pikulakov($|/)(.*)
           backend:
             serviceName: app-py-service
             servicePort: 9000
